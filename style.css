@@ -35,8 +35,8 @@ header{
     background-color: #16733e;
     background-image:linear-gradient(to top, #16733e, #16733e,#1e924a,#42be72);
     margin-top: -30px;
-    margin-right: -250px;
-    margin-left: -250px;
+    margin-right: -220px;
+    margin-left: -220px;
     text-align: justify;
     padding-left: 100px;
     padding-top: 20px;
@@ -44,12 +44,7 @@ header{
 }
 footer{
     text-align: center;
-    padding-bottom: 50px;
-    padding-top: 30px;
-    background-color:rgb(22, 115, 62);
-    margin-right:-100px;
-    margin-left:-100px;
-    margin-bottom: -150px;
+     
 }
 a{
     text-decoration: none;
@@ -60,3 +55,35 @@ a:hover{
     text-decoration: underline;
     color: rgb(26, 26, 255);
 }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    min-width: 200px;
+    float: left;
+    display: inline;
+        
+    }
+    ul#navigation {
+    float: left;
+    }
+    ul#navigation li {
+    float: left;
+    border: 1px black solid;
+    min-width: 200px;
+    }
+    ul.sub_navigation {
+    position:absolute;
+    float: left;
+    display: inline;
+    display: none;
+    }
+    ul.sub_navigation li {
+    clear: both;
+    float: left;
+    display: inline;
+    }
+    a,a:active,a:visited {
+    display: block;
+    padding: 10px;
+    }
