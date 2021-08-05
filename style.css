@@ -33,12 +33,11 @@ h2{
 header{
     background-color: #16733e;
     background-image:linear-gradient(to top, #16733e, #16733e,#1e924a,#42be72);
-    margin-top: -50px;
     margin-right: -100px;
     margin-left: -100px;
     text-align: justify;
     padding-left: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 footer{
     text-align: center;
