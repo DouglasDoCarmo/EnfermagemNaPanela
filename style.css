@@ -4,9 +4,10 @@
 }
 img {
     border-radius: 50%;
+    margin-left: 160px;
 }
 body{
-   background-color: rgb(22, 115, 62);    
+   background-color: rgba(22, 115, 62, 0.993);    
 }
 main{
     background-color: white;
@@ -33,11 +34,13 @@ h2{
 header{
     background-color: #16733e;
     background-image:linear-gradient(to top, #16733e, #16733e,#1e924a,#42be72);
-    margin-right: -100px;
-    margin-left: -100px;
+    margin-top: -30px;
+    margin-right: -250px;
+    margin-left: -250px;
     text-align: justify;
     padding-left: 100px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 footer{
     text-align: center;
