@@ -19,6 +19,7 @@ text-align: justify;
 font-size: 20px;
 }
 h1{
+    font-family:Crafty Girls, 'Times New Roman', Times, serif;
 font-size: 2em;
 text-align: center;
 color: #8A1413;
@@ -89,6 +90,7 @@ img.header{
     margin-right: 20em;
     margin-left: 10em;
 }
-h1.l{
-    font-family:'Crafty Girls';
+.l{
+    font-family:Crafty Girls;
+    color: #fff;
 }
